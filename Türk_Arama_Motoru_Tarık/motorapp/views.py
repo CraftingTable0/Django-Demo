@@ -10,4 +10,3 @@ def index(request: Any) -> HttpResponse:
 
 def not_found(request: Any, exception: Any) -> HttpResponse:
     return render(request, '404.html')
-
